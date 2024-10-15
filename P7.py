@@ -10,7 +10,7 @@ def temperature():
 
 def weight():
     P=float(input('pounds to convert-> '))
-    kg=pounds*0.45359237
+    kg=P*0.45359237
     print(P, 'pounds to kilograms-> ',P)
 
 def main():
